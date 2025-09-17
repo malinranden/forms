@@ -5,9 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="stylesheet" href="/styles/index.css">
-    <title>Document</title>
+    <title>Forms-assignment</title>
 </head>
 <body>
-    
+
+    <main>
+        <div class="form-container">
+            
+            <form action=""> <!--this is back-end stuff for later lessons-->
+                
+                <p class="full-name1">FULL NAME</p>
+                <input type="name" placeholder="Your name" class="full-name">
+           
+                <p>EMAIL</p>
+                <input type="text" placeholder="Your e-mail">
+
+                <p>PASSWORD</p>
+                <input type="password" placeholder="Your password" id="" id="">
+            
+                <p>MESSAGE</p>
+                <textarea required autofocus name="message" id="message" cols="40" rows="3" placeholder="Write your message here"></textarea>
+                
+                <!-- <div class="checkbox"> -->
+                    <input type="checkbox" class="switch" name="s1" id="s1">
+                    <label class="label" for="s1">Yes, I want newsletter</label>
+                <!-- </div> -->
+
+                <button type="submit" class="button" disabled>SEND MESSAGE</button>
+            
+            </form>
+        
+        </div>
+
+        <div class="light-purple"></div>
+
+        <img src="/images/duck.png" alt="duck">
+    </main>
+
 </body>
 </html>

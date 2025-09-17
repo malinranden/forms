@@ -1,0 +1,129 @@
+body {
+    background-color: #9DBEBB;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 954px;
+    height: 594px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light-purple {
+    width: 345px;
+    height: 594px;
+    background-color: rgb(159, 104, 211);
+}
+
+.form-container {
+    margin-top: 65px;
+    margin-left: 65px;
+    margin-bottom: 65px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 18px;
+    color: bisque;
+    margin-bottom: 5px;
+}
+
+p::first-letter {
+  color: rgb(66, 29, 100);
+  font-size: xx-large;
+}
+
+input {
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    border-bottom: 1px white solid;
+    width: 300px;
+    height: 30px;
+}
+
+textarea {
+    background-color: aqua;
+    outline: none;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+input:hover, input:focus  {
+    background-color: rgb(187, 255, 255);
+   
+}
+
+.input:hover, input:focus {
+    border: none;
+    
+}
+
+textarea:hover, textarea:focus {
+    background-color: rgb(187, 255, 255);    
+}
+
+
+
+.button {
+    background-color: rgb(1, 159, 159);
+    color: rgba(136, 84, 20, 0.719);
+    border-radius: 30px;
+    width: 202px;
+    height: 48px;
+    margin-top: 15px;
+    position: relative;
+
+}
+
+button:hover {
+    background-color: rgb(187, 255, 255);
+}
+
+.button:disabled {
+    background-color: rgb(33, 135, 135);
+
+}
+
+label {
+    color: white;
+    /* display: block; */
+}
+
+img {
+    position: fixed;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start; 
+    /*får inte till det... hinner inte innan inlämningstiden
+    går ut*/
+}
+
+.label, .switch {
+    
+}
+
+.switch {
+    position: relative;
+} 
